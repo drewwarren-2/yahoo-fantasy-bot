@@ -23,7 +23,7 @@ allprojects {
     apply plugin: 'kotlin'
     apply plugin: 'koin'
 
-    sourceCompatibility = 1.8
+    sourceCompatibility = 11
 
     dependencies {
         compile "org.jetbrains.kotlin:kotlin-stdlib:1.1.2"
@@ -39,7 +39,7 @@ allprojects {
     }
     compileKotlin {
         kotlinOptions {
-            jvmTarget = "1.8"
+            jvmTarget = "11"
         }
     }
 }
