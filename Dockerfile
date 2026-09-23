@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jre-slim
+FROM amazoncorretto:11
 
 WORKDIR /app
 
